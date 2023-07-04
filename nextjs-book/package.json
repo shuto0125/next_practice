@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint --dir src",
-    "format": "next lint --fix --dir src"
+    "format": "next lint --fix --dir src",
+    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write"
   },
   "dependencies": {
     "@types/node": "20.3.3",
